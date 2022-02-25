@@ -26,6 +26,8 @@ def api_endpoint():
     if not coords:
         return 'bad request!', 400
     cell_service = get_cell_availability_from_coord(coords, precision, operator_data)
+    if not cell_service:
+        return 'bad request!', 400
     response = format_response(cell_service, operator_table)
     return response
 
