@@ -2,7 +2,7 @@
 This project is done with flask in python and takes the form of a simple rest api
 
 ## How to use this project
-There's two mai nway of running this project, you can run it manually on your host machine :
+There's two main way of running this project, you can run it manually on your host machine :
 1. run```pip install requirements.txt```
 2. run ```python app.py```
 
